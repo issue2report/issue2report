@@ -1,0 +1,12 @@
+{
+    "pages" : {
+        "0"  : "cover",
+        "1"  : "intro",
+        "-1" : "conclusion"
+    },
+    "frozen_opts" : {
+        "{{RESUME}}" : "templates/resume.md",
+        "{{SCOPE}}" : "templates/scope.md",
+        "{{CONCLUSION}}" : "templates/conclusion.md"
+    }
+}

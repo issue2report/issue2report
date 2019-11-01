@@ -1,0 +1,30 @@
+@page {
+    @bottom-center {
+        content:  "Confidencial";
+        font-family: "Calibri";
+    }
+}
+
+body {
+    font-family: "Calibri";
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1,h2,h3,h4,h5 {
+    text-align: left;
+    font-weight: lighter;
+}
+h1 {
+    font-size: 80px;
+}
+span {
+    vertical-align: text-bottom;
+}
+hr {
+    border: 2px solid #6b3b3e;
+}
