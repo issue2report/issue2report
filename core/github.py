@@ -6,7 +6,7 @@ from PyPDF2 import PdfFileMerger
 
 class Github(object):
     def __init__(self,token,username,repo):
-        self.headers = {"Authorization" : "token {}".format(token),"Accept":"application/vnd.github.v3.raw"}
+        self.headers = {"Authorization" : "token {}".format(token),"Accept":"application/vnd.github.v3.raw", "state": "open"}
         self.username = username
         self.repo = repo
         self.base_url = "https://api.github.com"
