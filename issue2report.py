@@ -27,7 +27,7 @@ frozen_opts = {"{{DATE}}":date.today().strftime("%d/%m/%Y") }
 frozen_opts.update(customer)
 frozen_opts.update(template_frozen_opts)
 
-report_name = "{}-pentest-final-report-by-{}.pdf".format(frozen_opts["{{CUSTOMER}}"].lower(),frozen_opts["{{PENTESTER_NAME}}"].lower().replace(" ","_"))
+report_name = "{}-pentest-final-report-by-{}.pdf".format(frozen_opts["{{CUSTOMER}}"].lower().replace(" ","_"),frozen_opts["{{PENTESTER_NAME}}"].lower().replace(" ","_"))
 
 b = Build(output_dir,frozen_opts,p,g,t)
 
